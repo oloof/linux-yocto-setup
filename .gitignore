@@ -1,0 +1,49 @@
+# Yocto build/cache output
+build/
+tmp/
+sstate-cache/
+downloads/
+cache/
+
+#Yocto image outputs
+*.wic
+*.wic.*
+*.img
+*.img.*
+*.tar
+*.tar.*
+*.iso
+*.ext4
+*.sdimg
+*.rootfs.*
+
+#Logs
+*.log
+# Editor/System Junk
+,vscode/
+cat > .gitignore << 'EOF'
+# Yocto build/cache output
+build/
+tmp/
+sstate-cache/
+downloads/
+cache/
+
+#Yocto image outputs
+*.wic
+*.wic.*
+*.img
+*.img.*
+*.tar
+*.tar.*
+*.iso
+*.ext4
+*.sdimg
+*.rootfs.*
+
+#Logs
+*.log
+# Editor/System Junk
+.vscode/
+.DS_Syore
+Thumbs.db
