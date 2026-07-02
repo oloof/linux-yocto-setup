@@ -13,7 +13,7 @@ YOCTO_CACHE_DIR="${YOCTO_CACHE_DIR:-$HOME/yocto-cache}"
 MIN_DISK_GB=140
 
 #MODIFY THE MINIMUM RAM HERE ps: it actuall does nothing as it will just be a warning msg
-RECOMENDED_RAM_GB=32
+RECOMMENDED_RAM_GB=32
 
 # 1. Checking OS
 
